@@ -268,7 +268,12 @@
 
 <body onload="InitPage()">
 
-
+<div id="output">
+  <div id="greeting">
+    ASPShell - Web-based Shell Environment Version <%=version%><br/>
+    Copyright (c) 2007 Kurt Hanner, <a href="<%=homepagelink%>"><%=homepagelink%></a><br/><br/>
+  </div>
+</div>
 
 <label id="prompt">[undefined]</label>
 <input type="text" name="q" maxlength=1024 size=72>
